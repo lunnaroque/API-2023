@@ -1,0 +1,11 @@
+# Importa o módulo FastAPI, que permite a criação de aplicativos web com API REST.
+from fastapi import FastAPI, HTTPException
+
+# Importa o tipo de dados List, que é usado para declarar listas em anotações de tipos.
+from typing import List
+
+# Importa o módulo datetime, que permite trabalhar com objetos de data e hora.
+from datetime import datetime
+
+# Importa a classe BaseModel do módulo pydantic, que é usada para definir modelos de dados Pydantic.
+from pydantic import BaseModel
